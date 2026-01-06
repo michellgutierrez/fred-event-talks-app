@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.schedule-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-item {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.time-slot {
+    flex: 0 0 120px;
+    font-weight: bold;
+    color: #555;
+}
+
+.talk-details, .break-details {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.talk-details h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.talk-details p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.talk-details .speakers {
+    font-style: italic;
+    color: #666;
+}
+
+.talk-details .categories span {
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #3f51b5;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.break-details h3 {
+    margin-top: 0;
+    color: #d9534f; /* Red for breaks */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    text-align: center;
+}

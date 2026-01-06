@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Talks Event Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Talks Event Schedule</h1>
+    </header>
+    <main>
+        <section class="search-bar">
+            <input type="text" id="categorySearch" placeholder="Search by category (e.g., AI, Cloud, Node.js)">
+        </section>
+
+        <section id="schedule-container" class="schedule-container">
+            <!-- Schedule will be loaded here by JavaScript -->
+            <p id="loading-message">Loading schedule...</p>
+            <p id="error-message" class="error-message" style="display: none;"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Tech Talks Event</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
